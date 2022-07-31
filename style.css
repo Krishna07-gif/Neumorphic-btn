@@ -1,0 +1,27 @@
+body{
+    
+    margin: 0;
+    height: 70vh;
+    background: #e8e8e8;
+    color: #0000FF;
+    display: grid;
+    place-content: center;
+}
+
+.button{
+    color: #090090;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #fff;
+    place-content: center;
+    cursor: pointer;
+ }
+
+ .button:hover{
+    box-shadow: -6px -6px 12px #c5c5c5, 6px 6px  12px #fff;
+ }
